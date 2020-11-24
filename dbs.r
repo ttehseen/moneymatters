@@ -1,8 +1,7 @@
 library(lubridate)
 
 #Import the data into R
-rawData <- read.csv("C:/Users/tehseen/Downloads/a01bfaf212928e4575cfc89d3cabb478.P000000032238573.csv", 
-                    header=FALSE, stringsAsFactors=FALSE)
+
 rawData<-rawData[-c(59:64),] #remove the unnecessary rows.
 #Remove the unnecessary rows at the start of the data.
 
